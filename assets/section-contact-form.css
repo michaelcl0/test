@@ -1,0 +1,91 @@
+.section-contact-form-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 750px) {
+  .section-contact-form-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.contact {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.contacto {
+  background-color: #f5c254);
+}
+
+.contact h2 {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.contact__fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.field__input {
+  background-color: #F4D9A0;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 1.375rem;
+  letter-spacing: .55px;
+  line-height: 30px;
+  padding: 24px 16px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.field__label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.contact__field-error {
+  color: #d21c1c;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.text-area {
+  resize: none;
+}
+
+.contact__button {
+  text-align: center;
+}
+
+.button {
+  background-color: #333;
+  border: 1px solid;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 24px 16px;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button:hover {
+  background-color: #222;
+}
